@@ -2,7 +2,7 @@
 
 Package: The OpenClaw Model Routing Guide + Companion Runbook
 OpenClaw baseline: 2026.9.4 (checked 2026-09-17)
-Release address: https://github.com/xbillwatsonx/openclaw-model-routing-guide (expected public repository; not yet live)
+Release address: https://github.com/xbillwatsonx/openclaw-model-routing-guide
 
 ## 0.1.0, 2026-09-17
 
@@ -44,7 +44,7 @@ Release address: https://github.com/xbillwatsonx/openclaw-model-routing-guide (e
 - Stated explicitly that lowering the confidence floor, expanding to Standard tier, enabling main-agent routing, or removing the kill switch requires a new reviewed plan and explicit authorization.
 - No public release, active routing, broader-agent scope, or Standard-tier activation was authorized by this documentation change.
 
-## 0.1.4 (Jev case study; release candidate), 2026-09-30
+## 0.1.4 (Jev case study; released), 2026-09-30
 
 - Added an explicit reader-facing case study: GUIDE.md section 7.5, "A worked example: one lab's Jev classifier". Section 7.4 stays model-neutral so the generic semantic-routing guidance remains reusable beyond Jev.
 - Made the classifier layer's position explicit in reader text: task, classifier tier and confidence, safety gates, allowlisted executor, with the deterministic OpenClaw route as both baseline and fallback.
@@ -58,7 +58,7 @@ Release address: https://github.com/xbillwatsonx/openclaw-model-routing-guide (e
 - Completed bounded Phase 5 re-simulation across a nine-file semantic-routing and Jev case-study fixture set. The initial parent-reviewed result was 36 PASS, 5 NEEDS REVISION, and 0 FAIL; after bounded repairs, 8 of 8 targeted regression checks passed.
 - Completed the independent full-package audit and repaired its bounded table, privacy-boundary, validation-ledger, and editorial findings. Added mechanical checks for markdown table shape and private draft artifacts.
 - Before first publication, replaced the draft Creative Commons Attribution 4.0 license with the Bill Watson Limited-Use Content License 1.0. Personal learning and internal operational use remain permitted; redistribution and using the protected material as the basis of an offering to others require prior written permission.
-- 2026-09-30: The candidate content was frozen and prepared for public release. The URL placeholder was replaced with the fixed expected public address (https://github.com/xbillwatsonx/openclaw-model-routing-guide), and the package status moved from private draft to release candidate awaiting final approval. No substantive guide content changed.
+- 2026-09-30: Published the approved 19-file package at https://github.com/xbillwatsonx/openclaw-model-routing-guide. Agent-facing prompts now use the immutable v0.1.4 GUIDE.md address. No substantive guide content changed during release finalization.
 - No public release, classifier activation, routing scope expansion, or kill switch change was authorized by this documentation change.
 
 ## Version note

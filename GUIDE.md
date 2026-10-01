@@ -52,7 +52,7 @@ Read this guide top to bottom once. After that, the runbook is your operational 
 | [LICENSE.md](LICENSE.md) | The package license. |
 | [README.md](README.md) | Package identity, contents, and version metadata. |
 
-**Need a simpler explanation?** Some of this is dense on a first read. If you'd rather have your agent walk you through it, copy Prompt 1 from [12-prompts.md](12-prompts.md) or from section 10 of this guide. It asks your agent to read this guide first and then explain it section by section in plain language, with definitions, small examples, and comprehension checks, and to take no action on your system without your explicit approval. Until the public repository is live, prompts name the fixed public address and tell your agent to read your local copy of the package if that address is not live yet.
+**Need a simpler explanation?** Some of this is dense on a first read. If you'd rather have your agent walk you through it, copy Prompt 1 from [12-prompts.md](12-prompts.md) or from section 10 of this guide. It asks your agent to read this guide first and then explain it section by section in plain language, with definitions, small examples, and comprehension checks, and to take no action on your system without your explicit approval. Each prompt names the immutable v0.1.4 GUIDE.md address so your agent reads the released text.
 
 ## 1. What model routing is and why one model name is not the whole route
 
@@ -652,7 +652,7 @@ The prompt pack is [12-prompts.md](12-prompts.md). It contains eleven copyable p
 
 Every prompt carries the same safety frame:
 
-- It names the package address. That address is the fixed public address https://github.com/xbillwatsonx/openclaw-model-routing-guide, and every prompt tells your agent: if the address isn't live, ask me for the local package folder or every named file instead.
+- It names the immutable, version-specific GUIDE.md address so the agent reads the same released text you reviewed.
 - It names the exact package section to read, and tells the agent to read it before doing anything else. An agent that hasn't read the section will improvise; the prompt removes that option.
 - It states the purpose, so the agent knows what outcome you want.
 - It states the safe behavior you expect: read-only by default, evidence quoted back to you, no improvisation.
@@ -668,7 +668,7 @@ How to use: when the material feels dense and you want a guided, non-technical r
 
 ```text
 I'm working through The OpenClaw Model Routing Guide + Companion Runbook.
-Package address: https://github.com/xbillwatsonx/openclaw-model-routing-guide. If that address is not live yet, I will give you the local package folder or every named file instead. Ask me for them if you cannot reach the address. Confirm that you read every named file before continuing.
+Package address: https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md. Confirm that you read every named file before continuing.
 
 Purpose: I want a plain-language walkthrough of the whole guide before I touch anything on my system.
 
@@ -687,7 +687,7 @@ How to use: at runbook step 3, with the inventory worksheet open.
 
 ```text
 I'm working through The OpenClaw Model Routing Guide + Companion Runbook.
-Package address: https://github.com/xbillwatsonx/openclaw-model-routing-guide. If that address is not live yet, I will give you the local package folder or every named file instead. Ask me for them if you cannot reach the address. Confirm that you read every named file before continuing.
+Package address: https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md. Confirm that you read every named file before continuing.
 
 Purpose: I want to complete a safe inventory of my model routing setup, without exposing any secrets.
 
@@ -706,7 +706,7 @@ How to use: at runbook step 4, listing your recurring tasks.
 
 ```text
 I'm working through The OpenClaw Model Routing Guide + Companion Runbook.
-Package address: https://github.com/xbillwatsonx/openclaw-model-routing-guide. If that address is not live yet, I will give you the local package folder or every named file instead. Ask me for them if you cannot reach the address. Confirm that you read every named file before continuing.
+Package address: https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md. Confirm that you read every named file before continuing.
 
 Purpose: I want to classify my recurring work so my routing decisions follow from my actual needs.
 
@@ -725,7 +725,7 @@ How to use: at runbook step 5, after inventory and classification are done.
 
 ```text
 I'm working through The OpenClaw Model Routing Guide + Companion Runbook.
-Package address: https://github.com/xbillwatsonx/openclaw-model-routing-guide. If that address is not live yet, I will give you the local package folder or every named file instead. Ask me for them if you cannot reach the address. Confirm that you read every named file before continuing.
+Package address: https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md. Confirm that you read every named file before continuing.
 
 Purpose: I want to write my routing policy on paper before I touch any configuration.
 
@@ -744,7 +744,7 @@ How to use: at runbook steps 6 and 7, before anything is approved or applied.
 
 ```text
 I'm working through The OpenClaw Model Routing Guide + Companion Runbook.
-Package address: https://github.com/xbillwatsonx/openclaw-model-routing-guide. If that address is not live yet, I will give you the local package folder or every named file instead. Ask me for them if you cannot reach the address. Confirm that you read every named file before continuing.
+Package address: https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md. Confirm that you read every named file before continuing.
 
 Purpose: I have a filled-in change proposal and I want it checked before anything runs.
 
@@ -763,7 +763,7 @@ How to use: at runbook step 8, with an approved proposal in hand.
 
 ```text
 I'm working through The OpenClaw Model Routing Guide + Companion Runbook.
-Package address: https://github.com/xbillwatsonx/openclaw-model-routing-guide. If that address is not live yet, I will give you the local package folder or every named file instead. Ask me for them if you cannot reach the address. Confirm that you read every named file before continuing.
+Package address: https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md. Confirm that you read every named file before continuing.
 
 Purpose: I have approved exactly one change. I want to apply it and verify it, with you watching for anything unexpected.
 
@@ -782,7 +782,7 @@ How to use: at runbook step 9, with the test plan and scorecard open.
 
 ```text
 I'm working through The OpenClaw Model Routing Guide + Companion Runbook.
-Package address: https://github.com/xbillwatsonx/openclaw-model-routing-guide. If that address is not live yet, I will give you the local package folder or every named file instead. Ask me for them if you cannot reach the address. Confirm that you read every named file before continuing.
+Package address: https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md. Confirm that you read every named file before continuing.
 
 Purpose: I want to compare candidate models on my real work with matched tasks and a shared scorecard.
 
@@ -801,7 +801,7 @@ How to use: at runbook step 10, after a change or after any run you want proof a
 
 ```text
 I'm working through The OpenClaw Model Routing Guide + Companion Runbook.
-Package address: https://github.com/xbillwatsonx/openclaw-model-routing-guide. If that address is not live yet, I will give you the local package folder or every named file instead. Ask me for them if you cannot reach the address. Confirm that you read every named file before continuing.
+Package address: https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md. Confirm that you read every named file before continuing.
 
 Purpose: I want to verify the model route OpenClaw reports, inspect the intended credential route, and determine whether provider billing records are needed for final confirmation.
 
@@ -820,7 +820,7 @@ How to use: at runbook step 11, with test and verification evidence recorded.
 
 ```text
 I'm working through The OpenClaw Model Routing Guide + Companion Runbook.
-Package address: https://github.com/xbillwatsonx/openclaw-model-routing-guide. If that address is not live yet, I will give you the local package folder or every named file instead. Ask me for them if you cannot reach the address. Confirm that you read every named file before continuing.
+Package address: https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md. Confirm that you read every named file before continuing.
 
 Purpose: I made one change and ran my tests. I need help deciding to keep, revise, or roll back, based only on recorded evidence.
 
@@ -839,7 +839,7 @@ How to use: when a run fails, a surprise model answers, or a bill doesn't match.
 
 ```text
 I'm working through The OpenClaw Model Routing Guide + Companion Runbook.
-Package address: https://github.com/xbillwatsonx/openclaw-model-routing-guide. If that address is not live yet, I will give you the local package folder or every named file instead. Ask me for them if you cannot reach the address. Confirm that you read every named file before continuing.
+Package address: https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md. Confirm that you read every named file before continuing.
 
 Purpose: a route did something I didn't expect. I want to classify the failure from evidence, not guesses.
 
@@ -858,7 +858,7 @@ How to use: on a version change, a provider change, or your chosen review cadenc
 
 ```text
 I'm working through The OpenClaw Model Routing Guide + Companion Runbook.
-Package address: https://github.com/xbillwatsonx/openclaw-model-routing-guide. If that address is not live yet, I will give you the local package folder or every named file instead. Ask me for them if you cannot reach the address. Confirm that you read every named file before continuing.
+Package address: https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md. Confirm that you read every named file before continuing.
 
 Purpose: I want to run a maintenance review of my routing policy.
 

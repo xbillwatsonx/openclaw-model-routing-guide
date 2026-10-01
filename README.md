@@ -4,11 +4,11 @@
 
 **Edition:** Written against OpenClaw 2026.9.4 (checked 2026-09-17). Recheck version-specific details against your installed docs.
 
-**Version:** 0.1.4 (release candidate)
+**Version:** 0.1.4
 
-**Status:** Release candidate. Not released; awaiting final review approval.
+**Status:** Released.
 
-**Release address:** https://github.com/xbillwatsonx/openclaw-model-routing-guide (expected public repository; until it is live, use the local files in this package)
+**Release address:** https://github.com/xbillwatsonx/openclaw-model-routing-guide
 
 ## What this package is
 
@@ -67,10 +67,10 @@ Not for: people brand new to AI agents entirely, developers wanting API referenc
 
 ## Version and validation status
 
-- Package version 0.1.4 (release candidate), updated 2026-09-30. Not released; not public-ready until final review approval.
+- Package version 0.1.4, released 2026-09-30.
 - Every command, subcommand, and flag was checked against the installed OpenClaw 2026.9.4 help output on 2026-09-17. No mutation command was executed against a live setup at any point; mutation-shaped validation ran only inside a disposable isolated fixture, and no credential flow ran at all.
-- This release candidate has passed the structural checks in this package's justfile (`just verify`), the Phase 3 technical command validation (every command and flag re-verified against installed help, the safe read-only set executed with sanitized evidence only, and the dry-run commands exercised in an isolated fixture with the live config proven untouched), and the Phase 4 privacy and terminology review (privacy, terminology, billing-evidence, scope, reader-safety, and humanizer checks, with repairs applied). Phase 5 bounded re-simulation of the semantic-routing and Jev case-study files passed after revisions, including 8 of 8 targeted regression checks. The independent audit completed with bounded mechanical findings that were repaired. The candidate content is frozen; bundled review approval remains. Treat this as a release candidate awaiting final approval, not a released package.
-- The fixed public address is https://github.com/xbillwatsonx/openclaw-model-routing-guide. Until the repository is live, the prompt local-file fallbacks remain in effect.
+- This release passed the structural checks in the package's private validation harness, the Phase 3 technical command validation, the Phase 4 privacy and terminology review, Phase 5 bounded re-simulation of the semantic-routing and Jev case-study files, 8 of 8 targeted regression checks, and an independent full-package audit. All bounded findings were repaired before release.
+- The public repository is https://github.com/xbillwatsonx/openclaw-model-routing-guide. Agent-readable prompts use the immutable v0.1.4 guide at https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md.
 
 ## License
 
