@@ -1,6 +1,6 @@
 # The OpenClaw Model Routing Guide + Companion Runbook
 
-**Series position:** An unnumbered special guide. It releases after the OpenClaw Cost Savings Guide and before the currently planned Runbook 2. It is not part of the numbered runbook sequence.
+**Series position:** An unnumbered special guide. It was released after the OpenClaw Cost Savings Guide and before Runbook 2. It is not part of the numbered runbook sequence.
 
 **Edition:** Written against OpenClaw 2026.9.4 (checked 2026-09-17). Recheck version-specific details against your installed docs.
 
@@ -71,6 +71,16 @@ Not for: people brand new to AI agents entirely, developers wanting API referenc
 - Every command, subcommand, and flag was checked against the installed OpenClaw 2026.9.4 help output on 2026-09-17. No mutation command was executed against a live setup at any point; mutation-shaped validation ran only inside a disposable isolated fixture, and no credential flow ran at all.
 - This release passed the structural checks in the package's private validation harness, the Phase 3 technical command validation, the Phase 4 privacy and terminology review, Phase 5 bounded re-simulation of the semantic-routing and Jev case-study files, 8 of 8 targeted regression checks, and an independent full-package audit. All bounded findings were repaired before release.
 - The public repository is https://github.com/xbillwatsonx/openclaw-model-routing-guide. Agent-readable prompts use the immutable v0.1.4 guide at https://raw.githubusercontent.com/xbillwatsonx/openclaw-model-routing-guide/v0.1.4/GUIDE.md.
+
+## Related OpenClaw resources
+
+These three resources form a practical path through recovery readiness, deliberate model routing, and safe day-to-day maintenance:
+
+1. [Before You Trust OpenClaw](https://github.com/xbillwatsonx/openclaw-runbook-1-before-you-trust-openclaw): establish verified backups, independent host access, rollback, and recovery first.
+2. [The OpenClaw Model Routing Guide + Companion Runbook](https://github.com/xbillwatsonx/openclaw-model-routing-guide): design, test, verify, and roll back model routing with evidence.
+3. [Build an OpenClaw Setup You Can Understand and Repair](https://github.com/xbillwatsonx/openclaw-runbook-2-understandable-repairable-setup): map the system, record a known-good baseline, and practice one bounded safe change.
+
+Start with the resource that matches your immediate need, or follow them in this order.
 
 ## License
 
